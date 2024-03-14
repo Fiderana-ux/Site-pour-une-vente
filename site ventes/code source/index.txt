@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pejin'tsika</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="menu1">
+                <p><span class="logo">Pejin'</span>Tsika</p>
+            </div>
+            <div class="menu2">
+                <a href="">Nos Contacts</a>
+            </div>
+        </nav>
+        <p>Pejin'tsika - <br> votre destination en ligne pour une sélection soigneusement curatée d'articles de qualité. Découvrez notre gamme variée allant des vêtements aux accessoires, en passant par les objets de décoration. Trouvez l'essence de l'élégance et du style avec Pejin'tsika, où chaque article raconte une histoire unique.</p>
+    </header>
+
+    <section>
+        <div class="principal">
+            <div class="presentation">
+                <h2>Nous Sommes</h2>
+                <p>nous disposons des divers articles, selon vos désirs <br>
+                alors, n'hésitez pas de régarder la liste au dessous.</p>
+            </div>
+            <div class="article">
+                <div class="anatiny1">
+                    <div class="chaussure1">
+                        <img src="img/chaussure/banner_img_01.jpg" alt="">
+                        <h3>stan Smith</h3>
+                        <p>une chaussure de marque impossible à détronnée au niveau mondial</p>
+                        <div class="input">
+                            <input type="submit" value="Voir">
+                            <input type="submit" value="Contacter">
+                        </div>
+                    </div>
+                    <div class="chaussure2">
+                        <img src="img/chaussure/category_img_02.jpg" alt="">
+                        <h3>Nike pegasus</h3>
+                        <p>une chaussure de marque impossible à détronnée au niveau mondial</p>
+                        <div class="input">
+                            <input type="submit" value="Voir">
+                            <input type="submit" value="Contacter">
+                        </div>
+                    </div>
+                </div>
+                <p>nous disposons aussi des divers objets qui pourraient vous intérressés</p>
+                <div class="anatiny2">
+                    <div class="divers">
+                        <img src="img/divers/category_img_01.jpg" alt="">
+                        <h3>Montre Casio</h3>
+                        <p>article à bon prix,mais une boone qualité</p>
+                        <div class="input">
+                            <input type="submit" value="Voir">
+                            <input type="submit" value="Contacter">
+                        </div>
+                    </div>
+                    <div class="divers">
+                        <img src="img/divers/category_img_03.jpg" alt="">
+                        <h3>Lunette De Soleil RAYBAN</h3>
+                        <p>article à bon prix,mais une boone qualité</p>
+                        <div class="input">
+                            <input type="submit" value="Voir">
+                            <input type="submit" value="Contacter">
+                        </div>
+                    </div>
+                    <div class="divers">
+                        <img src="img/divers/feature_prod_03.jpg" alt="">
+                        <h3>Appareil photo</h3>
+                        <p>article à bon prix,mais une boone qualité</p>
+                        <div class="input">
+                            <input type="submit" value="Voir">
+                            <input type="submit" value="Contacter">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>LEBEBY &copy;2024</p>
+    </footer>
+
+</body>
+</html>

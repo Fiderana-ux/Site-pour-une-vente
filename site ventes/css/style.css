@@ -1,0 +1,284 @@
+body {
+    background: rgba(128, 128, 128, 0.37);
+}
+
+/*menu*/
+
+header {
+    background-image: url(9083906_183.jpg);
+    padding: 250px;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+    height: 20px;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1 p {
+    position: absolute;
+    top: 40px;
+    left: 125px;
+    font-size: 20px;
+    color: chocolate;
+
+}
+
+.menu2 {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+    color: black;
+}
+
+.menu2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.menu2 a:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+/*section*/
+
+.anatiny1{
+    width: 80%;
+    margin: auto;
+}
+
+.principal{
+    margin-top: 100px;
+}
+
+.presentation{
+    text-align: center;
+}
+
+.presentation h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.presentation p{
+    font-style: oblique;
+    font-size: 20px;
+}
+
+/*article*/
+
+.anatiny1{
+    width: 60rem;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 3px 4px 15px rgb(124, 122, 122);
+    padding: 50px;
+}
+
+.anatiny1{
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.anatiny1 img{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 3px 4px 15px gray;
+}
+
+.chaussure1{
+    margin-right: 50x;
+}
+
+.chaussure2{
+    margin-left: 50px;
+}
+
+.anatiny1 input{
+    background: gray;
+    border-radius: 20px;
+}
+
+.anatiny1 .input{
+    margin-left: 300px;  
+}
+
+.article p{
+    margin: 40px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-shadow: 0px 0px 16px white;
+    text-align: center;
+
+}
+
+.anatiny2{
+    width: 60rem;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 3px 4px 15px rgb(124, 122, 122);
+    padding: 50px;
+}
+
+.anatiny2{
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    margin-left: 140px;
+    margin-bottom: 60px;
+}
+
+.anatiny2 img{
+    width: 70%;
+}
+
+.anatiny2 input{
+    background: gray;
+    border-radius: 20px;
+}
+
+.anatiny2 .input{
+    margin-left: 100px;  
+}
+
+/*footer*/
+
+footer{
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.548);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+footer p{
+    text-align: right;
+}
+
+/* Ajout de Media Queries pour rendre le site responsive */
+
+/* Pour les petits écrans */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 100px;
+    }
+
+    .menu1 p {
+        top: 20px;
+        left: 50px;
+        font-size: 18px;
+    }
+
+    .menu2 {
+        top: 30px;
+        right: 50px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .anatiny1 {
+        width: 90%;
+    }
+
+    .presentation h2 {
+        font-size: 30px;
+    }
+
+    .presentation p {
+        font-size: 16px;
+    }
+
+    .anatiny1,
+    .anatiny2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chaussure1,
+    .chaussure2,
+    .divers {
+        margin: 20px 0;
+    }
+
+    .anatiny1 img,
+    .anatiny2 img {
+        width: 100%;
+    }
+
+    .anatiny1 .input,
+    .anatiny2 .input {
+        margin: 10px 0;
+    }
+
+    .anatiny1 .input input,
+    .anatiny2 .input input {
+        margin: 5px;
+    }
+}
+
+/* Pour les tablettes et les appareils avec des écrans plus larges */
+@media only screen and (max-width: 1024px) {
+    header {
+        padding: 150px;
+    }
+
+    .menu1 p {
+        top: 30px;
+        left: 100px;
+        font-size: 22px;
+    }
+
+    .menu2 {
+        top: 40px;
+        right: 150px;
+    }
+
+    .anatiny1,
+    .anatiny2 {
+        width: 80%;
+    }
+
+    .presentation h2 {
+        font-size: 36px;
+    }
+
+    .presentation p {
+        font-size: 18px;
+    }
+}
+
+
+/*terminée*/
